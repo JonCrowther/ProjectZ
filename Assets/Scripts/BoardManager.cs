@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class BoardManager : MonoBehaviour {
-	public int columns = 8;
-	public int rows = 8;
+	public static int columns = 8;
+	public static int rows = 8;
 	public GameObject[] floorTiles;
 
 	private Transform boardHolder;

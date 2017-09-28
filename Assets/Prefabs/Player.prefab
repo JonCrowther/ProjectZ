@@ -53,6 +53,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   selector: {fileID: 0}
+  moveHighlighter: {fileID: 1807418696896248, guid: 96b76f8aa02d60045bb3401c5f821515,
+    type: 2}
+  speed: 2
 --- !u!212 &212784417692423196
 SpriteRenderer:
   m_ObjectHideFlags: 1

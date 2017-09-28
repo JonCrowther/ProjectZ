@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Board
   - Tile
+  - Highlight
   layers:
   - Default
   - TransparentFX
@@ -48,6 +49,9 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 2503828929
+    locked: 0
+  - name: Highlight
+    uniqueID: 4046131435
     locked: 0
   - name: Selector
     uniqueID: 1103509961
