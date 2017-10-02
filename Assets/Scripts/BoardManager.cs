@@ -5,7 +5,9 @@ using UnityEngine;
 public class BoardManager : MonoBehaviour {
 	public static int columns = 8;
 	public static int rows = 8;
+	public int wallCount = 5;
 	public GameObject[] floorTiles;
+	public GameObject[] wallTiles;
 
 	private Transform boardHolder;
 	private List<Vector3> gridPositions = new List<Vector3>();
@@ -34,9 +36,28 @@ public class BoardManager : MonoBehaviour {
 		}
 	}
 
+	Vector3 RandomPosition()
+	{
+		int randomIndex = Random.Range (0, gridPositions.Count);
+		Vector3 randomPosition = gridPositions [randomIndex];
+		gridPositions.RemoveAt (randomIndex);
+		return randomPosition;
+	}
+
+	void PlaceWalls(GameObject[] walls)
+	{
+		for(int i = 0; i < wallCount; i++)
+		{
+			Vector3 randomPosition = RandomPosition ();
+			GameObject wall = wallTiles [Random.Range (0, wallTiles.Length)];
+			Instantiate (wall, randomPosition, Quaternion.identity);
+		}
+	}
+
 	public void SetUpScene()
 	{
 		BoardSetup ();
 		InitializeList ();
+		PlaceWalls (wallTiles);
 	}
 }

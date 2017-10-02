@@ -7,6 +7,7 @@ TagManager:
   - Board
   - Tile
   - Highlight
+  - Wall
   layers:
   - Default
   - TransparentFX
@@ -46,6 +47,9 @@ TagManager:
     locked: 0
   - name: Tiles
     uniqueID: 1903477889
+    locked: 0
+  - name: Walls
+    uniqueID: 2040382837
     locked: 0
   - name: Player
     uniqueID: 2503828929

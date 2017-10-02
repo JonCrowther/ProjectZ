@@ -64,8 +64,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44729de11d9ab3b4399b45ef352124f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  columns: 8
-  rows: 8
+  wallCount: 5
   floorTiles:
   - {fileID: 1370951883372490, guid: 708b5a334369d1f4291881eac6cfb295, type: 2}
   - {fileID: 1598673017075988, guid: 2e41858f2794b5c4e9b622e73272b25f, type: 2}
@@ -75,3 +74,11 @@ MonoBehaviour:
   - {fileID: 1241065306413900, guid: 67a6e5dcf4d82584495b178519632f24, type: 2}
   - {fileID: 1249178474214262, guid: dc9d214b49837b9409b59e2a9a029006, type: 2}
   - {fileID: 1999283899776938, guid: df61bf45885a85b438314da27d4ca406, type: 2}
+  wallTiles:
+  - {fileID: 1001876068268754, guid: 398663683bd5c1342a5e00983d3e7d35, type: 2}
+  - {fileID: 1073889565959070, guid: fe0a8df48be6b9040aa1258674335669, type: 2}
+  - {fileID: 1111861369185654, guid: 73bd9d1eca3ce6443867159dcdcec890, type: 2}
+  - {fileID: 1131386738431684, guid: 8d125f7b63ac0e141941fb2e73e2e53f, type: 2}
+  - {fileID: 1497930292551190, guid: 4bef616570ad5a1408727290aa6771ca, type: 2}
+  - {fileID: 1402798034607830, guid: 638da1f198cb1624096ba21b5534074c, type: 2}
+  - {fileID: 1657963786672082, guid: 2434dd3a897e6354e97b9e8e788000b6, type: 2}

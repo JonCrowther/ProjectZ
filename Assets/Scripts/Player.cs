@@ -34,4 +34,9 @@ public class Player : MonoBehaviour {
 			Destroy (highlight);
 		}
 	}
+
+	void OnCollisionEnter2D(Collision2D coll)
+	{
+		Debug.Log ("Collision Occurred");
+	}
 }
